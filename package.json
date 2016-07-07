@@ -21,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+  },
+  "dependencies": {
+    "foreman": "1.4.1"
   }
 }
