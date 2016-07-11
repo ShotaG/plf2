@@ -74,14 +74,4 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-
-<<<<<<< HEAD
-    //$('#award-recipients').on("click", function(event) {
-      //  event.preventDefault();
-     //$('#myModal').modal();
-    });
-=======
-    
->>>>>>> master
-
 })(jQuery); // End of use strict
