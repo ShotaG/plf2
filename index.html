@@ -101,12 +101,12 @@
     <section class="no-padding" id="award">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6" id="award-recipients">
+                <div class="col-lg-4 col-sm-6" id="award-recipients" data-toggle="modal" data-target="#myModal">
                     <div class="portfolio-box">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
+                                <div class="project-category text-faded" >
                                     Scholarship Award Recipients
                                 </div>
                                 <div class="project-name">
@@ -116,6 +116,62 @@
                         </div>
                     </div>
                 </div>
+
+        <!-- Button trigger modal 
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          Launch demo modal
+        </button>  -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Scholarship Award Recipients</h4>
+              </div>
+              <div class="modal-body">
+<!--hey seabass, can you style/clean this up please!!??  feel free to slice & dice this as you see fit.  I just copied & pasted from the email that paul sent out.   thanks dude!-->
+<h3>2015</h3>
+    <h4>Top Honor – Toby Contarsy</h4>
+    <h4>Runner-up – Natalia Vecerek</h4>
+    <h4>Honorable Mention - Emily Fuller, Sebastian Garcia, Chance Pardon
+    </h4>
+
+    <p>Our Top Honor this year is awarded to Toby Contarsy, a rising 4th year Central Section Guard and Junior Guard instructor who transferred to UCLA from Santa Monica City College this past fall.  Toby is studying Economics and English. While at SMC Toby achieved academic excellence while competing in water polo and swimming.  He achieved All-American in swimming, All-Conference in Water Polo, and was named the 2015 SMC Athlete of the Year.</p>
+
+    <p>Our Runner-Up for 2015 is Natalia Vecerek, a first year medical student at the Geffen School of Medicine at UCLA. Natalia like Toby is a rising 4th year guard.  She works South Bay and is also a Junior Guard instructor.  Natalia’s graduated Magna Cum Laude and Phi Beta Kappa from Dartmouth College in 2014 prior to her matriculation to the Geffen School of Medicine.  She was also Captain of the women’s swim team.</p>
+
+    <p>Our Honorable Mention recipients include Emily Fuller who is a Senior studying Psychology at Cal State Northridge; Sebastian Garcia, a freshman studying Computer Science at Northwestern University; and Chance Pardon, a South Bay guard who is attending law school at UC Irvine.</p>
+ 
+
+<h3>2014</h3>
+
+    <h4>Top Honor – Kelsey O'Donnell</h4>
+    <h4>Runners-up – Derek Linsley, Charles (Charlie) Welsey Manclark, and Adam Moine</h4>
+    <h4>Honorable Mention - Kailey Makuta and Savannah Fletcher
+    </h4>
+
+    <p>Our Top Honor this year is awarded to Ms. Kelsey O'Donnell.  Kelsey is from Southern Section.  Her rookie year was 2008 and she is currently completing her Masters in Nursing at University of San Francisco.  She has competed internationally as a member on the US Surf Lifesaving Team.  Eventually she will pursue Nurse Practitioners training.</p>
+
+    <p>Our Runners-Up include Derek Linsley, Charles (Charlie) Welsey Manclark, and Adam Moine.</p>
+
+    <p>Derek, whose rookie year was 2006 and works in Southern Section, is a graduate student at University of Hawaii in Ocean and Resources Engineering.  He is planning on pursuing a Professional Engineering (PE) license, and practice in the field with aspirations of executive leadership in the long-term future.</p>
+
+    <p>Charlie, a Southern Section guard whose rookie year was 2013, is a senior at Boston College majoring in History with co-minors in Computer Science, and Film Studies.  He has been active in Men’s Club Water Polo.</p>
+
+    <p>Adam lifeguards in Central Section and was a rookie in 2103.  He is a sophomore at the California Maritime Academy studying Marine Transportation.  His accomplishments include a channel crossing swim from Catalina and his long term goal is reaching the rank of Commander as a merchant sailor.</p> 
+
+    <p>Finally, our Honorable Mention awards go to Kailey Makuta and Savannah Fletcher.  Kailey is a senior at California State University, Long Beach majoring in Kinesiology. Savannah is a senior communications major at Loyola Marymount University. </p>
+
+              </div>
+              <div class="modal-footer">
+              <!--  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>  -->
+              </div>
+            </div>
+          </div>
+        </div>
                 
 <!--as of now, the faded letters seem to need the a href to work... I want those letters there w/o the href, and i want to make an accordian style event handler attached to this.  perhaps an event.preventDefault()?  in order to prevent refreshing when I click on the image?-->
                 <div class="col-lg-4 col-sm-6" id="lifetime-scholar">
@@ -124,7 +180,7 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Lifetime Scholar Award Recipients
+                                    Lifetime Achievement Award Recipients
                                 </div>
                                 <div class="project-name">
                                     
@@ -133,13 +189,15 @@
                         </div>
                     </div>
                 </div>
+
+                
                 <div class="col-lg-4 col-sm-6" id="donors">
                     <div class="portfolio-box"> 
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Donor Honor Roll
+                                    Kind and Gracious Donors
                                 </div>
                                 <div class="project-name">
      

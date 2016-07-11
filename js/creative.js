@@ -43,7 +43,7 @@
     })
 
     // Initialize and Configure Scroll Reveal Animation
-   /* window.sr = ScrollReveal();
+    window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
@@ -58,7 +58,7 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
-*/
+
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
