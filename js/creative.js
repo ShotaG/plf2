@@ -75,9 +75,6 @@
         }
     });
 
-    //$('#award-recipients').on("click", function(event) {
-      //  event.preventDefault();
-       // console.log('clicked');
-    //});
+    
 
 })(jQuery); // End of use strict
