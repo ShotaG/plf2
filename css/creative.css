@@ -413,3 +413,7 @@ body {
 #myModalApply {
   color: black;
 }
+
+.clickable {
+  cursor: pointer;
+}
