@@ -410,6 +410,6 @@ body {
   display: none;
 }
 
-.clickable {
+.clickable { 
   cursor: pointer;
 }
