@@ -422,4 +422,16 @@ body {
 .clickable {
   cursor: pointer;
 }
+<<<<<<< HEAD
 >>>>>>> fdb4637319eafb3e217313ca2df991897ff03753
+=======
+
+#contact {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/possibleImages/3.jpg');
+}
+>>>>>>> 9961a701fe9344bfe4e2b894746e63fe2e68f431
