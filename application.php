@@ -1,3 +1,5 @@
+
+
 <?php
 $name=$_POST['name'];
 $date_m=$_POST['month'];
@@ -34,10 +36,11 @@ $goals2=$_POST['goals2'];
 
 $message="Name: ".$name."\n\nDate of hire: ".$date_m.'/'.$date_y."\nSection: ".$section."\n\nPermanent Address\nStreet: ".$street."\nCity: ".$city."\nZip Code: ".$zip."\nPhone: ".$phone."\nE-mail: ".$email."\nCurrent school attending: ".$current_school."\nYear: ".$year."\nMajor/Program: ".$major."\nCurrent GPA: ".$gpa."\nHonors and Extracurricular Activities: \n".$honors."\n\n\nList three references: \n\nName:".$r_name1."\nTitle/Relationship:".$r_major1."\nPhone:".$r_phone1."\n\nName:".$r_name2."\nTitle/Relationship:".$r_major2."\nPhone:".$r_phone2."\n\nName:".$r_name3."\nTitle/Relationship:".$r_major3."\nPhone:".$r_phone3."\n\n\nFuture educational goals:\n".$goals1."\n\nCareer goals:\n".$goals2;
 
-mail('hulapie9@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
-mail('paul.silka@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
-mail('prolifeguardfoundation@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
-mail('nordink@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
+mail('shotaguy419@yahoo.com', 'The Professional Lifeguard Foundation  - Application', $message);
+//mail('hulapie9@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
+//mail('paul.silka@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
+//mail('prolifeguardfoundation@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
+//mail('nordink@gmail.com', 'The Professional Lifeguard Foundation  - Application', $message);
 //mail('admin@3dr.org', 'The Professional Lifeguard Foundation  - Application', $message);
 
 $filename = "mail_content.txt";
@@ -52,3 +55,7 @@ mail($email, 'Thank you for your application to the Professional Lifeguard Found
 header("Location: thankyou.html");
 
 ?>
+
+
+
+
