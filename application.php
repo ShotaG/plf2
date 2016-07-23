@@ -1,6 +1,7 @@
 
 
 <?php
+echo hello;
 $name=$_POST['name'];
 $date_m=$_POST['month'];
 $date_y=$_POST['d_year'];
