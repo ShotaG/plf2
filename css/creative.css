@@ -222,9 +222,9 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
-  opacity: 0;
+  opacity: 0.6;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(131, 110, 105, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -247,12 +247,13 @@ header .header-content .header-content-inner p {
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   font-weight: 600;
   font-size: 14px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
+  
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
