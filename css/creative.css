@@ -444,6 +444,8 @@ body {
   background-image: url('../img/possibleImages/3.jpg');
 }*/
 
-#dun {
+.dun {
   padding: 20px;
+  max-width: 100%;
+  height: auto
 }
