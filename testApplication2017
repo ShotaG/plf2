@@ -1,0 +1,218 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Professional Lifeguard Foundation Scholarship Application</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="fn">First name</label>  
+  <div class="col-md-4">
+  <input id="fn" name="fn" type="text" placeholder="first name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ln">Last name</label>  
+  <div class="col-md-4">
+  <input id="ln" name="ln" type="text" placeholder="last name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="yearHired">Year of Hire (Rookie Year)</label>  
+  <div class="col-md-4">
+  <input id="yearHired" name="yearHired" type="month" placeholder="Year of Hire" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="section">Section</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control input-md">
+      <option>Southern</option>
+      <option>Central</option>
+      <option>Northern</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="email" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="add1">Address 1</label>  
+  <div class="col-md-4">
+  <input id="add1" name="add1" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="add2">Address 2</label>  
+  <div class="col-md-4">
+  <input id="add2" name="add2" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="city">City</label>  
+  <div class="col-md-4">
+  <input id="city" name="city" type="text" placeholder="city" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="zip">Zip Code</label>  
+  <div class="col-md-4">
+  <input id="zip" name="zip" type="text" placeholder="Zip Code" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label" for="ctry">Country</label>  -->
+<!--  <div class="col-md-4">-->
+<!--  <input id="ctry" name="ctry" type="text" placeholder="Country" class="form-control input-md" required="">-->
+    
+<!--  </div>-->
+<!--</div>-->
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone">Phone</label>  
+  <div class="col-md-4">
+  <input id="phone" name="phone" type="tel" placeholder="Phone#" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="school">School</label>  
+  <div class="col-md-4">
+  <input id="school" name="school" type="text" placeholder="Current School Attending" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="currentYear">Current Year</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control input-md">
+      <option>Freshman</option>
+      <option>Sophmore</option>
+      <option>Junior</option>
+      <option>Senior</option>
+      <option>Graduate Student</option>
+    </select>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="major">Major/Program</label>  
+  <div class="col-md-4">
+  <input id="major" name="major" type="text" placeholder="Major/Program/Area of Study" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="honors">Honors and Extracurricular Activities</label>  
+  <div class="col-md-4">
+  <input id="honors" name="honors" type="text" placeholder="What makes you stand out from the rest?" class="form-control input-md" required="">
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="gpa">current GPA</label>  
+  <div class="col-md-4">
+  <input id="gpa" name="gpa" type="number" step="any" value="0.0" placeholder="Major/Program/Area of Study" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<h5>Please list three references.  One reference should be a current LA County Lifeguard</h5>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="referenceOne">First Reference</label>  
+  <div class="col-md-4">
+  <input id="refOneName" name="refOneName" type="name" placeholder="Name" class="form-control input-md" required="">    
+  <input id="refOneTitle" name="refOneTitle" type="text" placeholder="Title/Relationship" class="form-control input-md" required="">    
+  <input id="refOneTel" name="refOneTel" type="tel" placeholder="Phone Number" class="form-control input-md" required="">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="referenceTwo">Second Reference</label>  
+  <div class="col-md-4">
+  <input id="refTwoName" name="refTwoName" type="name" placeholder="Name" class="form-control input-md" required="">    
+  <input id="refTwoTitle" name="refTwoTitle" type="text" placeholder="Title/Relationship" class="form-control input-md" required="">    
+  <input id="refTwoTel" name="refTwoTel" type="tel" placeholder="Phone Number" class="form-control input-md" required="">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="referenceTwo">Third Reference</label>  
+  <div class="col-md-4">
+  <input id="refThreeName" name="refThreeName" type="name" placeholder="Name" class="form-control input-md" required="">    
+  <input id="refThreeTitle" name="refThreeTitle" type="text" placeholder="Title/Relationship" class="form-control input-md" required="">    
+  <input id="refThreeTel" name="refThreeTel" type="tel" placeholder="Phone Number" class="form-control input-md" required="">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="edGoals">Summarize your future educational goals</label>  
+  <div class="col-md-4">
+  <input id="edGoals" name="edGoals" type="text" placeholder="" class="form-control input-md" required="">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="careerGoals">Summarize your career goals</label>  
+  <div class="col-md-4">
+  <input id="careerGoals" name="careerGoals" type="text" placeholder="" class="form-control input-md" required="">
+  </div>
+</div>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">SUBMIT</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
+
+
+
